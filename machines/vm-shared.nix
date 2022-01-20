@@ -48,14 +48,11 @@
     desktopManager = {
       xterm.enable = false;
       wallpaper.mode = "scale";
-      gnome.enable = true;
     };
 
     displayManager = {
-      # Disable i3 and enable GNOME
-      # defaultSession = "none+i3";
-      # lightdm.enable = true;
-      gdm.enable = true;
+      defaultSession = "none+i3";
+      lightdm.enable = true;
 
       # AARCH64: For now, on Apple Silicon, we must manually set the
       # display resolution. This is a known issue with VMware Fusion.
