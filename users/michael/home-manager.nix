@@ -22,6 +22,7 @@ let sources = import ../../nix/sources.nix; in {
     pkgs.watch
     pkgs.zathura
     pkgs._1password
+    pkgs._1password-gui
 
     pkgs.go
     pkgs.gopls
@@ -29,6 +30,14 @@ let sources = import ../../nix/sources.nix; in {
 
     pkgs.tlaplusToolbox
     pkgs.tetex
+
+    pkgs.vscode
+    pkgs.vscode-extensions.ms-vscode-remote.remote-ssh
+    pkgs.jetbrains.idea-ultimate
+    pkgs.jetbrains.goland
+    pkgs.jetbrains.ruby-mine
+    
+    pkgs.kind
   ];
 
   #---------------------------------------------------------------------
