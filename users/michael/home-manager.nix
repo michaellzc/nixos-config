@@ -38,6 +38,7 @@ let sources = import ../../nix/sources.nix; in {
     pkgs.jetbrains.ruby-mine
     
     pkgs.kind
+    pkgs.sg-dev
   ];
 
   #---------------------------------------------------------------------
